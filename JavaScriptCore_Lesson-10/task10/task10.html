@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript AJAX using jQuery</title>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="task10.js"></script>
+</head>
+
+<body>
+	<h1>AJAX methods</h1>
+	<form>
+		<input id="Surname" type="text" placeholder="Фамилия"><br><br>
+		<input id="Name" type="text" placeholder="Имя"><br><br>
+		<input id="Age" type="text" placeholder="Возраст"><br><br>
+		<input id="Address" type="text" placeholder="Место проживания"><br>
+		<p id="Message">Для отправки формы необходимо корректно заполнить все поля!</p>
+		<input id="AjaxGET" type="button" value="Ajax GET" disabled>
+		<input id="AjaxPOST" type="button" value="Ajax POST" disabled>
+		<input id="ClearFields" type="button" value="Clear Fields">
+	</form>
+
+	<style>
+	.error { border-color: red }
+	</style>
+</body>
+</html>
